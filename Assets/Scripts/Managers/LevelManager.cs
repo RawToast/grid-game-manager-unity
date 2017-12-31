@@ -14,7 +14,7 @@ namespace Managers {
 		}
 
 		public void NextLevel() {
-			print("Changing level, score is: " + Grd.Score);
+			print("Changing level, score is: " + Grd.Score.GetScore());
 			if (currentGameLevelsList == null || currentGameLevelsList.Count == 0) {
 				ResetLevels();
 			}
