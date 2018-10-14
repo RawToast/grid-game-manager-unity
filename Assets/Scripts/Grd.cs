@@ -13,7 +13,7 @@ static class Grd {
 	static Grd() {
 		GameObject g = safeFind("App");
 
-		Score = (ScoreManager)SafeComponent( g, "ScoreManager" );
+		Score = (ScoreManager)SafeComponent(g, "ScoreManager" );
 		Level = (LevelManager)SafeComponent(g, "LevelManager");
         
 #if UNITY_EDITOR

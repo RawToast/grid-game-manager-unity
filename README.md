@@ -2,8 +2,7 @@
 
 Example of using the Grid system / Preload Scene as a game manager in Unity 5.x. 
 
-Note that any Scene can still be loaded from the Unity editor.
-
+Note that any Scene can still be loaded from the Unity editor. You need to set the preload scene via the Unity editor `File` -> `Scene Autoload` -> `Select Master Scene`
 
 This 'game' is nothing more than a moving square and a score. Once the square reaches the goal, the next scene is loaded whilst the global state (score & level progression) is maintained.
 
